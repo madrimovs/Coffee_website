@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Fredoka+One&family=Hind+Madurai:wght@300;400&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Fredoka+One&family=Hind+Madurai:wght@300;400&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 90%;
+  margin: auto; }
+
+.header .nav-bar {
+  justify-content: space-between;
+  display: flex;
+  padding: 40px 0;
+  align-items: center; }
+  .header .nav-bar .nav-logo {
+    width: 280px; }
+    .header .nav-bar .nav-logo img {
+      width: 100%; }
+  .header .nav-bar .nav-item ul {
+    display: flex; }
+    .header .nav-bar .nav-item ul li {
+      list-style-type: none; }
+      .header .nav-bar .nav-item ul li a {
+        text-decoration: none;
+        margin-left: 35px;
+        color: #83888f;
+        font-family: "Barlow";
+        font-weight: bold;
+        font-size: 15px; }
+      .header .nav-bar .nav-item ul li a:hover {
+        color: black; }
+      .header .nav-bar .nav-item ul li .active {
+        color: black !important; }
+  .header .nav-bar .label {
+    display: none; }
+
+.plan {
+  background-image: url(../img/bg-plan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 450px; }
+  .plan .plan-text {
+    color: #ffffff;
+    width: 50%;
+    padding: 150px 100px; }
+    .plan .plan-text h1 {
+      padding-bottom: 20px;
+      font-family: "Fraunces";
+      font-size: 45px; }
+    .plan .plan-text p {
+      font-family: "Barlow";
+      font-size: 17px;
+      line-height: 26px; }
+
+.choose {
+  background-color: #2c343e;
+  margin-top: 100px;
+  border-radius: 10px;
+  margin-bottom: 100px; }
+  .choose .choose-img {
+    text-align: center; }
+    .choose .choose-img img {
+      margin: 50px 0; }
+  .choose .choose-card {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px; }
+    .choose .choose-card .choose-01 {
+      margin-right: 30px;
+      color: #ffffff; }
+      .choose .choose-card .choose-01 h1 {
+        color: #fdd6ba;
+        font-size: 72px;
+        font-family: "Fraunces"; }
+      .choose .choose-card .choose-01 h2 {
+        font-family: "Fraunces";
+        width: 200px;
+        margin: 10px 0; }
+      .choose .choose-card .choose-01 p {
+        width: 250px;
+        font-family: "Barlow";
+        font-size: 16px; }
+
+.how {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  width: 90%;
+  margin: auto; }
+  .how .how-plan {
+    width: 20%;
+    margin-right: 100px; }
+    .how .how-plan h3 {
+      color: #333d4ba0;
+      font-family: "Fraunces";
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 32px;
+      margin: 20px 0; }
+    .how .how-plan h3:hover {
+      color: black;
+      cursor: pointer; }
+  .how .how-cards {
+    width: 60%; }
+    .how .how-cards .how-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px; }
+      .how .how-cards .how-text h1 {
+        color: #83888f;
+        font-family: "Fraunces";
+        font-size: 40px; }
+      .how .how-cards .how-text img:hover {
+        cursor: pointer; }
+    .how .how-cards .how-card {
+      display: flex;
+      margin-bottom: 70px; }
+      .how .how-cards .how-card .card-1 {
+        background-color: #f4f1eb;
+        border-radius: 10px;
+        width: 60%;
+        padding: 32px; }
+        .how .how-cards .how-card .card-1 h3 {
+          color: #333d4b;
+          font-family: "Fraunces";
+          font-size: 24px; }
+        .how .how-cards .how-card .card-1 p {
+          margin-top: 20px;
+          color: #333d4b;
+          font-family: "Barlow";
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 35px; }
+      .how .how-cards .how-card .card-1:hover {
+        background-color: #fdd6ba;
+        cursor: pointer;
+        box-shadow: 0 0 15px #eb9c64; }
+      .how .how-cards .how-card .card-2 {
+        background-color: #0e8784;
+        border-radius: 10px;
+        width: 60%;
+        padding: 32px;
+        margin: 0 20px;
+        color: #fff; }
+        .how .how-cards .how-card .card-2 h3 {
+          font-family: "Fraunces";
+          font-size: 24px; }
+        .how .how-cards .how-card .card-2 p {
+          margin-top: 20px;
+          font-family: "Barlow";
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 35px; }
+      .how .how-cards .how-card .card-2:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px black; }
+      .how .how-cards .how-card .card-3 {
+        background-color: #f4f1eb;
+        border-radius: 10px;
+        width: 60%;
+        padding: 32px; }
+        .how .how-cards .how-card .card-3 h3 {
+          color: #333d4b;
+          font-family: "Fraunces";
+          font-size: 24px; }
+        .how .how-cards .how-card .card-3 p {
+          margin-top: 20px;
+          color: #333d4b;
+          font-family: "Barlow";
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 35px; }
+      .how .how-cards .how-card .card-3:hover {
+        background-color: #fdd6ba;
+        cursor: pointer;
+        box-shadow: 0 0 15px #eb9c64; }
+      .how .how-cards .how-card .card-4 {
+        background-color: #0e8784;
+        border-radius: 10px;
+        width: 60%;
+        padding: 32px;
+        color: #fff; }
+        .how .how-cards .how-card .card-4 h3 {
+          font-family: "Fraunces";
+          font-size: 24px; }
+        .how .how-cards .how-card .card-4 p {
+          margin-top: 20px;
+          font-family: "Barlow";
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 35px; }
+      .how .how-cards .how-card .card-4:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px black; }
+      .how .how-cards .how-card .card-5 {
+        background-color: #f4f1eb;
+        border-radius: 10px;
+        width: 60%;
+        padding: 32px;
+        margin: 0 20px; }
+        .how .how-cards .how-card .card-5 h3 {
+          color: #333d4b;
+          font-family: "Fraunces";
+          font-size: 24px; }
+        .how .how-cards .how-card .card-5 p {
+          margin-top: 20px;
+          color: #333d4b;
+          font-family: "Barlow";
+          font-size: 16px;
+          line-height: 26px;
+          padding-bottom: 35px; }
+      .how .how-cards .how-card .card-5:hover {
+        background-color: #fdd6ba;
+        cursor: pointer;
+        box-shadow: 0 0 15px #eb9c64; }
+    .how .how-cards .order {
+      background-color: #2c343e;
+      padding: 30px 60px;
+      border-radius: 10px;
+      color: #fff; }
+      .how .how-cards .order p {
+        font-family: "Barlow";
+        color: #535961; }
+      .how .how-cards .order h2 {
+        font-family: "Fraunces";
+        font-weight: 1000;
+        line-height: 40px;
+        font-size: 24px;
+        margin-top: 20px; }
+        .how .how-cards .order h2 span {
+          color: #0e8784; }
+    .how .how-cards .plan-btn {
+      float: right;
+      margin-top: 20px; }
+      .how .how-cards .plan-btn button {
+        background-color: #66d2cf;
+        font-family: "Fraunces";
+        color: white;
+        padding: 15px 25px;
+        margin-top: 20px;
+        border-radius: 7px;
+        font-size: 20px;
+        border: none; }
+      .how .how-cards .plan-btn button:hover {
+        box-shadow: 0 0 7px #66d2cf;
+        cursor: pointer; }
+
+.footer {
+  margin-top: 100px;
+  background-color: #2c343e;
+  padding: 30px 0; }
+  .footer .fot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .footer .fot .fot-logo {
+      width: 280px; }
+      .footer .fot .fot-logo img {
+        width: 100%; }
+    .footer .fot .fot-item ul {
+      display: flex; }
+      .footer .fot .fot-item ul li {
+        list-style: none; }
+        .footer .fot .fot-item ul li a {
+          text-decoration: none;
+          margin: 0 20px;
+          color: #83888f;
+          font-family: "Barlow";
+          font-weight: bold;
+          font-size: 15px; }
+        .footer .fot .fot-item ul li a:hover {
+          color: #ffffff; }
+        .footer .fot .fot-item ul li .active {
+          color: white; }
+    .footer .fot .fot-icon a {
+      margin-left: 20px;
+      align-items: center; }
+      .footer .fot .fot-icon a img:hover {
+        box-shadow: 0 0 35px black; }
+
+/*Responsive*/
+@media only screen and (max-width: 730px) {
+  .nav-item {
+    display: none; }
+
+  .header .nav-bar .label {
+    display: block; } }
+@media only screen and (max-width: 350px) {
+  .header .nav-bar .nav-logo {
+    width: 200px; } }
+@media only screen and (max-width: 900px) {
+  .plan .plan-text {
+    padding: 100px 50px; } }
+@media only screen and (max-width: 670px) {
+  .plan .plan-text {
+    width: 100%; } }
+@media only screen and (max-width: 340px) {
+  .plan .plan-text {
+    padding: 50px 50px; }
+    .plan .plan-text p {
+      line-height: 20px; } }
+@media only screen and (max-width: 540px) {
+  .choose .choose-img img {
+    width: 250px; } }
+@media only screen and (max-width: 1100px) {
+  .choose {
+    text-align: center; }
+    .choose .choose-card {
+      margin-left: 0;
+      display: block; }
+      .choose .choose-card .choose-01 {
+        margin-top: 20px; }
+        .choose .choose-card .choose-01 h2 {
+          width: 100%; }
+        .choose .choose-card .choose-01 p {
+          font-size: 16px;
+          width: 60%;
+          margin: auto; } }
+@media only screen and (max-width: 1300px) {
+  .how .how-plan {
+    display: none; }
+  .how .how-cards {
+    width: 100%; }
+    .how .how-cards .how-text {
+      text-align: center; } }
+@media only screen and (max-width: 800px) {
+  .how .how-cards {
+    width: 100%; }
+    .how .how-cards .how-card {
+      display: block;
+      width: 100%; }
+      .how .how-cards .how-card .card-1 {
+        width: 100%;
+        margin-top: 30px; }
+      .how .how-cards .how-card .card-2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px; }
+      .how .how-cards .how-card .card-3 {
+        width: 100%;
+        margin-top: 30px; }
+      .how .how-cards .how-card .card-4 {
+        width: 100%;
+        margin-top: 30px; }
+      .how .how-cards .how-card .card-5 {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px; } }
+@media only screen and (max-width: 880px) {
+  .footer {
+    text-align: center; }
+    .footer .fot {
+      display: block; }
+      .footer .fot .fot-logo {
+        width: 100%; }
+        .footer .fot .fot-logo img {
+          width: 50%; }
+      .footer .fot .fot-item {
+        margin: 40px 0; }
+        .footer .fot .fot-item ul li {
+          width: 40%; } }
+@media only screen and (max-width: 800px) {
+  .footer .fot .fot-item ul {
+    display: block; }
+    .footer .fot .fot-item ul li {
+      width: 100%;
+      margin: 10px 0; } }
+
+/*# sourceMappingURL=plan.css.map */
